@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Form from './components/Form'
+
+import ParentComponent from '/home/leila/development/code/phase-2/react-hooks-forms/src/components/ParentComponent.js';
 
 ReactDOM.render(
-  <Form />,
+
+ <ParentComponent />, 
   document.getElementById('root')
 );
